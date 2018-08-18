@@ -1,4 +1,4 @@
-baseurl = "https://mdhalim.github.io/thoughlog"
+baseurl = "https://mdhalim.github.io/thoughtlog"
 title = "Halim"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
