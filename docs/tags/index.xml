@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Halim</title>
+    <link>https://mdhalim.github.io/thoughlog/tags/</link>
+    <description>Recent content in Tags on Halim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mdhalim.github.io/thoughlog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>https://mdhalim.github.io/thoughlog/tags/bitcoin/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/thoughlog/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain</title>
+      <link>https://mdhalim.github.io/thoughlog/tags/blockchain/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/thoughlog/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrency</title>
+      <link>https://mdhalim.github.io/thoughlog/tags/cryptocurrency/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/thoughlog/tags/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Signature</title>
+      <link>https://mdhalim.github.io/thoughlog/tags/digital-signature/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/thoughlog/tags/digital-signature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://mdhalim.github.io/thoughlog/tags/tips/</link>
+      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/thoughlog/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://mdhalim.github.io/thoughlog/tags/vim/</link>
+      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
+      
+      <guid>https://mdhalim.github.io/thoughlog/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

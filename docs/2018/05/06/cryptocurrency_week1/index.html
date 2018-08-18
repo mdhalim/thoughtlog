@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="I have noticed the buzzwords “Bitcoin” and “Blockchain” for a while. There are lots of articles, news, and talks around them. It seems that many people believe that cryptocurrency is the future of online payment, some even claim that blockchain would become the fundamental technology of the next generation of the Internet.">
+    
+    <meta name="keyword"  content="halim, mdhalim, blockchain, cryptocurrencies, web, distributed systems, growth hacking">
+    <link rel="shortcut icon" href="https://mdhalim.github.io/thoughlog/img/favicon.ico">
+
+    <title>Introduction to crypto and cryptocurrencies-Blog by Halim</title>
+
+    <link rel="canonical" href="https://mdhalim.github.io/2018/05/06/cryptocurrency_week1">
+
+    <link rel="stylesheet" href="https://mdhalim.github.io/thoughlog/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="https://mdhalim.github.io/thoughlog/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="https://mdhalim.github.io/thoughlog/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="https://mdhalim.github.io/thoughlog/css/syntax.css">
+
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    
+    <script src="https://mdhalim.github.io/thoughlog/js/jquery.min.js"></script>
+    
+    
+    <script src="https://mdhalim.github.io/thoughlog/js/bootstrap.min.js"></script>
+    
+    
+    <script src="https://mdhalim.github.io/thoughlog/js/hux-blog.min.js"></script>
+</head>
+</head>
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://mdhalim.github.io/thoughlog/">Halim</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://mdhalim.github.io/thoughlog/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://mdhalim.github.io/thoughlog/categories/note">Note</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://mdhalim.github.io/thoughlog/categories/tips">Tips</a>
+                    </li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header{
+        background-image: url('https://mdhalim.github.io/thoughlog/img/cover2.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                       
+                       <a class="tag" href="/thoughlog/tags/cryptocurrency" title="Cryptocurrency">
+                           Cryptocurrency
+                        </a>
+                        
+                       <a class="tag" href="/thoughlog/tags/blockchain" title="Blockchain">
+                           Blockchain
+                        </a>
+                        
+                       <a class="tag" href="/thoughlog/tags/bitcoin" title="Bitcoin">
+                           Bitcoin
+                        </a>
+                        
+                    </div>
+                    <h1>Introduction to crypto and cryptocurrencies</h1>
+                    <h2 class="subheading">Bitcoin and Cryptocurrency Technologies-Week 1</h2>
+                    <span  class="meta">Posted by Halim on Sunday, May 6, 2018
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+		
+                <header>
+                <h2>TOC</h2>
+                </header>
+                <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#how-did-i-get-into-this">How did I get into this?</a></li>
+<li><a href="#what-s-my-finding-of-blockchain-and-cryptocurrency-learning-materials">What&rsquo;s my finding of blockchain and cryptocurrency learning materials?</a></li>
+</ul></li>
+</ul>
+</nav>
+		
+		<blockquote>
+<p>This series of articles are my notes of &ldquo;Bitcoin and Cryptocurrency Technologies&rdquo; online course.</p>
+</blockquote>
+
+<h2 id="how-did-i-get-into-this">How did I get into this?</h2>
+
+<p>I have noticed the buzzwords “Bitcoin” and “Blockchain” for a while. There are lots of articles, news, and talks around them. It seems that many people believe that cryptocurrency is the future of online payment, some even claim that blockchain would become the fundamental technology of the next generation of the Internet.
+</p>
+
+<p>Given its popularity, I can’t help thinking that should I also invest in it? Maybe investing money in Bitcoin or other cryptocurrencies is too risky now, but at least I could try to learn the technologies behind these. So one day I could use this knowledge to help me estimate a potential cryptocurrency investment opportunity, or maybe find a job :-)</p>
+
+<h2 id="what-s-my-finding-of-blockchain-and-cryptocurrency-learning-materials">What&rsquo;s my finding of blockchain and cryptocurrency learning materials?</h2>
+
+<p>I did some searches and found so many materials about Bitcoin and Blockchain. Some of them did good jobs at explaining parts of the whole picture, But it’s a big topic so I think a systematic learning path makes more sense.</p>
+
+<p>Finally, I found this amazing “Bitcoin and Cryptocurrency Technologies” online course. It&rsquo;s created by the professors of Princeton University. The course has a series of well-organized lecture videos explaining the technologies behind Bitcoin from the very beginning to more advanced topics. It also has programming practices after each lecture so you can get hands in the codes and get a better understanding of the theories you got from the videos.</p>
+
+<p>I encourage anyone who is interested in cryptocurrency to attend this wonderful online course. You will not only get a chance to learn the theories and technical details behind the popular Bitcoin but also even be able to create your own version of cryptocurrency after finishing this course!  The last important thing is that it&rsquo;s totally free!  What you need to do to gain all of these is just watching the course videos and try to practice and finish your programming assignments. The course is mobile friendly, so you can even watch the course on your mobile phone when commuting on the subway, that&rsquo;s exactly what I&rsquo;m doing, a great way to make use of the fragmented time.</p>
+
+<p>You can find the online course here: <a href="https://www.coursera.org/learn/cryptocurrency">Bitcoin and Cryptocurrency Technologies</a></p>
+
+<p><a href="https://github.com/zhaohuabing">Example codes on GitHub</a></p>
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/05/07/cryptocurrency_week1_cryptographic_hash_function" data-toggle="tooltip" data-placement="top" title="Cryptographic Hash Function">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/02/09/vim-tips/" data-toggle="tooltip" data-placement="top" title="Vim Tips">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            
+<div id="disqus-comment"></div>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                     
+                    
+                        
+                            <a href="/thoughlog/tags/bitcoin" title="Bitcoin">
+                                Bitcoin
+                            </a>
+                        
+                    
+                        
+                            <a href="/thoughlog/tags/blockchain" title="Blockchain">
+                                Blockchain
+                            </a>
+                        
+                    
+                        
+                            <a href="/thoughlog/tags/cryptocurrency" title="Cryptocurrency">
+                                Cryptocurrency
+                            </a>
+                        
+                    
+                        
+                            <a href="/thoughlog/tags/digital-signature" title="Digital Signature">
+                                Digital Signature
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                    
+                    </div>
+                </section>
+
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href="" rel="alternate" type="application/rss+xml" title="Halim" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:halim.infinity@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/haliminfinity">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/mdhalim">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    <li>
+                        <a target="_blank" href="https://linkedin.com/in/mdhalim">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Halim , 2018
+                    <br>
+                    Powered by <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">Hugo</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
